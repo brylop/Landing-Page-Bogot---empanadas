@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Empanadas Gourmet",
-  description: "Las mejores empanadas artesanales, calientes y a tu puerta.",
+  title: "Empanadas a Domicilio en Bogotá | Empanadas Gourmet",
+  description: "Las mejores empanadas artesanales de Bogotá. Masa crujiente, relleno abundante y envío rápido a Chapinero, Usaquén y más.",
 };
 
 export default function RootLayout({
