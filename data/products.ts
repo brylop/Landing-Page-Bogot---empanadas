@@ -1,0 +1,62 @@
+import { Product } from "@/types";
+
+export const products: Product[] = [
+    {
+        id: "1",
+        name: "Carne Suave",
+        description: "Clásica empanada de carne cortada a cuchillo, con cebolla, huevo y aceitunas.",
+        price: 1200,
+        category: "Saladas",
+        imageUrl: "https://images.unsplash.com/photo-1619861614949-b3a1b87ec347?q=80&w=600&auto=format&fit=crop",
+        popular: true,
+    },
+    {
+        id: "2",
+        name: "Carne Picante",
+        description: "Para los valientes. Carne cortada a cuchillo con un toque de ají molido y pimentón.",
+        price: 1200,
+        category: "Saladas",
+        imageUrl: "https://images.unsplash.com/photo-1619861614949-b3a1b87ec347?q=80&w=600&auto=format&fit=crop",
+    },
+    {
+        id: "3",
+        name: "Jamón y Queso",
+        description: "Abundante mozzarella y jamón cocido de primera calidad.",
+        price: 1100,
+        category: "Saladas",
+        imageUrl: "https://images.unsplash.com/photo-1566213600657-37e424564c23?q=80&w=600&auto=format&fit=crop",
+        popular: true,
+    },
+    {
+        id: "4",
+        name: "Pollo",
+        description: "Jugoso relleno de pollo con pimientos y especias suaves.",
+        price: 1100,
+        category: "Saladas",
+        imageUrl: "https://images.unsplash.com/photo-1619861614949-b3a1b87ec347?q=80&w=600&auto=format&fit=crop",
+    },
+    {
+        id: "5",
+        name: "Humita",
+        description: "Crema de choclo dulce con salsa blanca y queso.",
+        price: 1100,
+        category: "Saladas",
+        imageUrl: "https://images.unsplash.com/photo-1566213600657-37e424564c23?q=80&w=600&auto=format&fit=crop",
+    },
+    {
+        id: "6",
+        name: "Pastelito de Batata",
+        description: "Masa crujiente rellena de dulce de batata.",
+        price: 800,
+        category: "Dulces",
+        imageUrl: "https://placeres.pe/wp-content/uploads/2020/09/empanadas.jpg",
+    },
+    {
+        id: "7",
+        name: "Coca-Cola 1.5L",
+        description: "Gaseosa sabor cola.",
+        price: 2500,
+        category: "Bebidas",
+        imageUrl: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=600&auto=format&fit=crop",
+    },
+];
